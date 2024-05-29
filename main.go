@@ -15,7 +15,7 @@ func main() {
 	// print the Coefficients 
 	fmt.Println("Coefficients:")
 	co:=olsRes.Coefficients().RawMatrix().Data
-
+	// print the raw data only
 	fmt.Println(co)
 
 }
